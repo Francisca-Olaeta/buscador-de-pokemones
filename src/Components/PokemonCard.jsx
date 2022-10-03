@@ -25,7 +25,7 @@ const PokemonCard = () => {
         <h2 className='pokeName my-2'>{pokemonSelected.name}</h2>
         {/* /*Card que retorna el Pokemon */ }
     
-        <Card key={pokemonSelected.id} className={style}> 
+        <Card key={pokemonSelected.id} className={`flex-row myCard ${style}`}> 
             
             <Card.Img variant="top" src={pokemonSelected.src} style={{width: '20rem'}} />
          
