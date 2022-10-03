@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.active {
+  color: #e1e440;
+  font-weight: 700;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+.active:visited{
+  color: #e1e440;
+  font-weight: 700;
+  text-decoration: none;
+}
+.notActive {
+  color: #e5e5e5;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.section{
+  margin: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section__title{
+  margin-bottom: 3rem;
+}
+.section__select{
+  margin-bottom: 2rem;
+}
+
+ .card{
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: left;
+  align-items: center;
+} 
+
+.pokeName{
+  font-weight: 800;
+}
+
+.fireClass{
+  background-color: rgb(249, 209, 145);
+  display: flex;
+}
+.grassClass{
+  background-color: rgb(174, 249, 145);
+  display: flex;
+}
