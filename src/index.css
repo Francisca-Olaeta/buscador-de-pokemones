@@ -30,6 +30,10 @@ code {
   margin-right: 1rem;
 }
 
+.myNavbar{
+  flex-wrap: nowrap !important;
+}
+
 .section{
   margin: 10rem;
   display: flex;
@@ -46,10 +50,8 @@ code {
 }
 
  .card{
-  width: 100%;
   display: flex;
   padding: 1rem;
-  margin: 1rem;
   text-align: left;
   align-items: center;
 } 
@@ -58,11 +60,60 @@ code {
   font-weight: 800;
 }
 
-.fireClass{
-  background-color: rgb(249, 209, 145);
+.fire{
+  background-color: rgb(252, 244, 222) !important;
   display: flex;
+  flex-direction: row !important;
 }
-.grassClass{
-  background-color: rgb(174, 249, 145);
+
+.grass{
+  background-color: rgb(235, 247, 227) !important;
   display: flex;
+  flex-direction: row !important;
+}
+.water{
+  background-color: rgb(240, 251, 255) !important;
+  display: flex;
+  flex-direction: row !important;
+}
+.bug{
+  background-color: rgb(250, 239, 239) !important;
+  display: flex;
+  flex-direction: row !important;
+}
+.normal{
+  background-color: rgb(247, 247, 247) !important;
+  display: flex;
+  flex-direction: row !important;
+}
+.poison{
+  background-color: rgb(231, 230, 253) !important;
+  display: flex;
+  flex-direction: row !important;
+}
+.electric{
+  background-color: rgb(254, 255, 234) !important;
+  display: flex;
+  flex-direction: row !important;
+}
+.ground{
+  background-color: rgb(244, 235, 227) !important;
+  display: flex;
+  flex-direction: row !important;
+}
+.fairy{
+  background-color: rgb(255, 246, 251) !important;
+  display: flex;
+  flex-direction: row !important;
+}
+.ground{
+  background-color: rgb(244, 235, 227) !important;
+  display: flex;
+  flex-direction: row !important;
+}
+
+@media only screen and (max-width: 600px){
+  .fire, .grass, .water, .bug, .normal, .poison, .electric, .ground, .fairy{
+    flex-direction: column !important;
+  }
 }
